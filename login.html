@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>OnlinesPey Login Page</title>
+    <meta charset="UTF-8">
+    <title>OnlinesPey - AEPS, Mobile Recharge, Travel Booking, Bill Payment, Mini/ Micro ATM</title>
+    <meta name="description"
+        content="India's driving single place of AEPS, Money Transfer, Cash Point, Assisted E-Shopping, Recharges, and Reservation administrations.">
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:title" content="OnlinesPey" -="" aeps,="" recharge,="" fund="" transfer,="" bill="" payment,=""
+        mini="" micro="" atm="">
+    <meta property="og:site_name" content="OnlinesPey">
+    <meta property="og:url" content="https://www.onlinespey.com/">
+    <meta property="og:description"
+        content="India's driving single place of AEPS, Money Transfer, Cash Point, Assisted E-Shopping, Recharges, and Reservation administrations.">
+    <meta property="og:type" content="">
+    <meta property="og:image" content="images/home-api.jpg">
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/icofont.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
+
+
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo21.png">
+    <link rel="icon" type="image/png" href="images/logo21.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/logo21.png" sizes="16x16">
+
+    <style>
+        /* body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+        } */
+        
+        .login-container {
+          max-width: 400px;
+          margin: 100px auto;
+          background: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        
+        .login-tab {
+          overflow: hidden;
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 20px;
+        }
+        
+        .login-tab button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          border-bottom: 2px solid transparent;
+        }
+        
+        .login-tab button:hover {
+          border-bottom: 2px solid #007bff;
+        }
+        
+        .login-tab button.active {
+          border-bottom: 2px solid #007bff;
+        }
+        
+        .tabcontent {
+          display: none;
+          padding: 20px;
+          border-top: 1px solid #ccc;
+        }
+        
+        .tabcontent.active {
+          display: block;
+        }
+        .forgot-password {
+      text-align: right;
+      margin-top: 10px;
+    }
+        
+        .login-container input[type="text"],
+        .login-container input[type="password"],
+        .login-container input[type="email"] {
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          
+
+        }
+        
+        button[type="submit"] {
+          width: 100%;
+          padding: 10px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+        
+        @media (max-width: 768px) {
+          .login-container {
+            width: 90%;
+          }
+        }
+      </style>
+      
+ 
+    
+</head>
+<body>
+    <header class="main-header header-style2 stricky">
+        <div class="inner-container clearfix">
+            <div class="logo-box-style2 float-left">
+                <a href="index.html">
+                    <img src="images/LOGO22NEW.png" alt="Awesome Logo">
+                </a>
+            </div>
+            <div class="main-menu-box float-right">
+                <nav class="main-menu style2 clearfix">
+                    <div class="navbar-header clearfix">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse clearfix">
+                        <ul class="navigation clearfix">
+                            <li><a href="index.html"> Home</a></li>
+                            
+
+                            <li class="dropdown">
+                                <a href="#">Services</a>
+                                <ul>
+                                    <li><a href="login.html">Adhar Enabled payment
+                                        Services</a></li>
+                                <!-- <li><a href="account-opening.php">Account Opening</a></li> -->
+                                <li><a href="login.html">Domestic Money Transfer</a></li>
+                                <li><a href="login.html">Travel and Stay Services</a></li>
+                                <li><a href="login.html">Insurances and Loans</a></li>
+                                <li><a href="login.html">Micro ATM</a></li>
+                                <li><a href="login.html">Pan Card Centre</a></li>
+                                <li><a href="login.html">POS machine</a></li>
+                                <li><a href="login.html">Recharge and BBPS and Utility Services</a>
+                                </li>
+                                <li><a href="login.html">White Label ATM</a></li>
+                                <li><a href="login.html">White label and API Services </a>
+                                </li>
+
+                                </ul>
+                            </li>
+                            <!-- <li><a href="our-team.php"> Our Team</a></li> -->
+
+                            <!-- <li><a href="our-bussiness.php"> Our business associate</a></li>
+                            <li><a href="#"> Blog</a></li>
+                            <li><a href="gallery.php"> Gallery</a></li> -->
+                            <li><a href="contact.html"> About Us</a></li>
+                            <li><a href="contact.html"> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <h2 style="text-align: center;">Comming Soon.. <br/>ONLINESPEY WISH YOUHAPPY HOLI..</h2>
+      <div class="login-container">
+        <div class="login-tab">
+          <button class="tablinks" onclick="openTab(event, 'Login')" id="defaultOpen">Login</button>
+          <button class="tablinks" onclick="openTab(event, 'Signup')">Signup</button>
+        </div>
+      
+        <!-- Login Tab Content -->
+        <div id="Login" class="tabcontent">
+          <h2>Login</h2>
+          <form method="POST" id="auth-login">
+            <input type="text" placeholder="Enter Phone" name="phone" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <!-- {{#if errorMessage}} -->
+              <p style="color: rgb(255, 0, 85);">Enter Correct Details</p>
+            <!-- {{/if}} -->
+            <div class="cf-turnstile" data-theme ="light" data-sitekey="0x4AAAAAAAPtPsUw8nDF4pyX"></div>
+            <button type="submit" >Login</button>
+            <div class="forgot-password">
+                <button onclick="showForgotPassword()" >Forgot Password?</button>
+            </div>
+            <p>@2024 Develop & Designed by <a href="https://www.hubofsolution.online" target="_blank">OnlineSolutionHub</a></p>
+
+          </form>
+          
+        </div>
+        <!-- Signup Tab Content -->
+        <div id="Signup" class="tabcontent">
+          <h2>Signup</h2>
+          <form action="/signup" method="post" id="login-form">
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <input type="email" placeholder="Enter Email" name="email" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Signup</button>
+          </form>
+          <p>@2024 Develop & Designed by <a href="https://www.hubofsolution.online" target="_blank">OnlineSolutionHub</a></p>
+
+        </div>
+      </div>
+      
+      <div id="forgotPasswordForm" style="display: none;">
+        <h2>Forgot Password</h2>
+
+        
+        <form>
+          <input type="email" placeholder="Enter Email" id="forgotEmail" required>
+          <button type="button" onclick="sendResetLink()">Send Reset Link</button>
+        </form>
+        
+      </div>
+      
+    </div>
+      
+      <script>
+        function showForgotPassword() {
+      document.getElementById('loginForm').style.display = 'none';
+      document.getElementById('signupForm').style.display = 'none';
+      document.getElementById('forgotPasswordForm').style.display = 'block';
+    }
+      function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      function sendResetLink() {
+      // Here you can add your forgot password logic
+      alert('Reset link will be sent to your email.');
+    }
+      
+      document.getElementById("defaultOpen").click();
+      </script>
+
+
+
+
+   <!-- Footer -->
+   <footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="single-footer-widget marbtm50">
+                    <div class="contact-info-box">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img src="images/LOGO22NEW.png" alt="Company Logo">
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <p><b>Address : </b>Ghansadih, near Thana More Dhanbad Jharkhand 
+                                828116 </p>
+                            </li>
+                            <li>
+                                <p><b>Phone :</b><a href="tel:+919097379339">+919097379339 </a> 
+                                    </p>
+                            </li>
+
+                            <li>
+                                <p><b>Email :</b><a href="mailto:onlinespey@gmail.com">onlinespey@gmail.com</a></p>
+                            </li>
+                        </ul>
+
+                        <div class="footer-social-links">
+                            <div class="title">
+                                <h3>Follow Us:</h3>
+                            </div>
+
+                            <ul class="sociallinks-style-one">
+                                <li class="wow slideInUp" data-wow-delay="0ms" data-wow-duration="1200ms">
+                                    <a href="https://www.facebook.com/onlinespey"
+                                        target="_blank"><i class="fa fa-facebook"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="wow slideInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                    <a href="https://twitter.com/#" target="_blank"><i
+                                            class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                    <a href="https://www.instagram.com/onlinesolutionhub_/" target="_blank"><i
+                                            class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                    <a href="https://www.linkedin.com/company/onlinesolutionhub"
+                                        target="_blank"><i class="fa fa-linkedin"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                    <a href="https://www.youtube.com/#"
+                                        target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="single-footer-widget marbtm50">
+                    <div class="title">
+                        <h3>Product &amp; Services</h3>
+                    </div>
+                    <div class="services-links">
+                        <ul>
+                            <li><a href="#">Adhar Enabled payment
+                                    Services</a></li>
+                            <li><a href="#">Account Opening</a></li>
+                            <li><a href="#">Domestic Money Transfer</a></li>
+                            <li><a href="#">Travel and Booking Services</a></li>
+                            <li><a href="#">Insurances &amp; Loans</a><a
+                                    href="#">/ Pan Card</a></li>
+                            <li><a href="#">Micro ATM</a><a href="pos-machine.php">/ POS
+                                    machine</a></li>
+                            <li><a href="#">Recharge &amp; BBPS &amp; Utility
+                                    Services</a> </li>
+                            <li><a href="#">White Label ATM </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
+                <div class="single-footer-widget pdbtm50">
+                    <div class="title">
+                        <h3>Company</h3>
+                    </div>
+                    <div class="services-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About us</a></li>
+                            <li><a href="about-us.html">Our team</a></li>
+                            <!-- <li><a href="gallery.php">Gallery</a></li> -->
+                            <!-- <li><a href="faq.php">FAQ</a></li> -->
+                            <!-- <li><a href="career.php">Career</a></li> -->
+                            <li><a href="contact-us.php">Contact Us</a></li>
+                            <!--  <li><a href="#">terms Condition</a></li>
+                <li><a href="#">Grievance Policy</a></li> -->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div class="single-footer-widget pdbtm50">
+                    <div class="title">
+                        <h3>Channel Partner</h3>
+                    </div>
+                    <div class="services-links">
+                        <ul>
+                            <!-- <li><a href="retailer.php">Retailer</a></li> -->
+                            <!-- <li><a href="distributor.php">Distributor</a></li> -->
+                            <li><a href="#">White Label &amp; API
+                                    Services</a></li>
+                            <li><a href="#">Service Plans &amp; Costing</a></li>
+                            <li><a href="#">Registration Process</a></li>
+                            <li><a href="#" data-toggle="modal"
+                                    data-target="#">Sign Up</a></li>
+                            <!-- <li><a href="pay-now.php">Pay Now</a></li> -->
+                            <!--  <li><a href="#">terms Condition</a></li>
+                <li><a href="#">Grievance Policy</a></li> -->
+
+                            <!--<li><a href="#"><button data-toggle="modal" data-target="#myModal_signup" class="topbutton" >Sign Up</button></a></li>-->
+                            <!--<li><a href="pay-now.php"><button class="topbutton">Pay Now</button></a></li>-->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12">
+
+                <div class="footer-bottom">
+                    <ul class="footer-list">
+                        <li><a href="#" class="left-footer">Privacy Policy</a></li>
+                        <li><a href="#" class="left-footer">Terms &amp; Conditions</a>
+                        </li>
+                        <li><a href="#" class="left-footer">Cancellation/Refund Policy</a>
+                        </li>
+                        <!-- <li><a href="grievance-policy.php" class="left-footer">Grievance Policy</a></li> -->
+                        <li><a href="#" class="left-footer">Customer Support</a></li>
+                        <!--  <li><a href="#">terms Condition</a></li>
+                <li><a href="#">Grievance Policy</a></li> -->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</footer>
+
+
+<section class="footer-bottom-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="footer-bottom-content flex-box-two">
+                    <div class="copyright-text">
+                        <p>© 2024 All Rights Reserved by <a href="https://www.hubofsolution.online" target="_blank">OnlineSolutionHub Software Pvt. Ltd.</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <ul class="bootom-aap">
+
+                    <li class="bootom-last"> We Are Coming Soon.. </li>
+                    <li>
+                        <div class="footer-img">
+                              <a href="#"><img src="images/LOGO22NEW.png" /></a> 
+                            <a href="#"><img src="" target="_blank"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+</div>
+</body>
+</html>
